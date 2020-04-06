@@ -1,18 +1,19 @@
-Role Name
-=========
+ansible gocryptfs role
+======================
 
-Role to install gocryptfs
+![CI](https://github.com/baztian/ansible-gocryptfs/workflows/CI/badge.svg
+
+Role to install gocryptfs.
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
     - hosts: servers
+      become: yes
       roles:
          - role: baztian.gocryptfs
 
 License
 -------
 
-GPLv3
+MIT
